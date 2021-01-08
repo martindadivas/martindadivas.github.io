@@ -1,5 +1,4 @@
 header {
-    display: flex;
     justify-content: center;
     background-color: #264653;
     color: #e76f51;
@@ -8,6 +7,7 @@ header {
 h1 {
     font-family: 'Big Shoulders Stencil Text', cursive;
     justify-content: center;
+    width: 100%;
 }
 
 header p {
@@ -17,3 +17,8 @@ header p {
 main {
     justify-content: center;
 }
+
+a:link    {color: }
+a:visited {color: }
+a:hover   {color: }
+a:active  {color: }
