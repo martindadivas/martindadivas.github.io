@@ -6,5 +6,10 @@ header {
 
 h1 {
     font-family: 'Big Shoulders Stencil Text', cursive;
+    justify-content: center;
+}
+
+header p {
+    justify-content: center;
 }
 
