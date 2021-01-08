@@ -1,10 +1,10 @@
-header {
+.header {
     display: grid;
     justify-content: center;
     background-color: darkblue;
     color: orange;
 }
 
-h1 {
+.h1 {
     font-family: 'Roboto', sans-serif;
 }
