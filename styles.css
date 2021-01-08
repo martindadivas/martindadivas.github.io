@@ -1,5 +1,5 @@
 header {
-    display: grid;
+    display: flex; 
     justify-content: center;
     background-color: #222E50;
     color: #8BB174;
