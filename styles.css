@@ -1,7 +1,8 @@
 header {
+    display: grid;
     justify-content: center;
-    background-color: #264653;
-    color: #e76f51;
+    background-color: #222E50;
+    color: #8BB174;
 }
 
 h1 {
