@@ -1,9 +1,13 @@
 header {
-    justify-content: center;
     background-color: #264653;
     color: #e76f51;
 }
 
 h1 {
+    justify-content: center;
     font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+header > p {
+    justify-content: center;
 }
