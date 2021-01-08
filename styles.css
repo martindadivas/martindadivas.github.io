@@ -18,7 +18,7 @@ main {
     justify-content: center;
 }
 
-a:link    {color: }
-a:visited {color: }
-a:hover   {color: }
-a:active  {color: }
+a:link    {color: blue}
+a:visited {color: purple}
+a:hover   {color: lightblue}
+a:active  {color: darkblue}
