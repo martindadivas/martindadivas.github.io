@@ -1,7 +1,9 @@
 header {
     justify-content: center;
+    background-color: darkblue;
+    color: orange;
 }
 
-header h1 {
+h1 {
     font-family: 'Roboto', sans-serif;
 }
