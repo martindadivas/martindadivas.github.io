@@ -1,4 +1,5 @@
 header {
+    display: grid;
     justify-content: center;
     background-color: darkblue;
     color: orange;
