@@ -1,9 +1,10 @@
 header {
-    height: 190px;
+    height: 100px;
     background-color: #11122b;
     color: #cbcbcb;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
     align-items: center;
     padding: 60px 100px;
 }
