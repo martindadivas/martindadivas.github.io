@@ -1,11 +1,11 @@
 header {
-    justify-content: center;
-    text-align: center;
-    background-color: #264653;
-    color: #e76f51;
-    width: 100%;
-    margin: 10px;
-    padding: 10px; 
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
 }
 
 h1 {
