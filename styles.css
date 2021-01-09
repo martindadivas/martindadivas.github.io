@@ -1,7 +1,13 @@
 .dark-background {
+    justify-content: center;
     height: 100px;
     background-color: #11122b;
     color: #cbcbcb;
+}
+
+.light-background {
+    background-color: #cbcbcb;
+    color: #11122b;
 }
 
 h1 {
