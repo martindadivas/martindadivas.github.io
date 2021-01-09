@@ -1,5 +1,6 @@
-.picture {
-    justify-content: center;
+header {
+    padding-top: 1px;
+    padding-bottom: 5px;
 }
 
 .dark-background {
@@ -10,16 +11,35 @@
     color: #cbcbcb;
 }
 
+h1 {
+    font-size: 50px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    justify-content: center;
+    width: 100%;
+}
+
 .light-background {
     background-color: #cbcbcb;
     color: #11122b;
 }
 
-h1 {
-    font-size: 38px;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+.picture {
+    text-align: center;
+}
+
+.intro, .about-me, .contact {
+    text-align: center;
     justify-content: center;
-    width: 100%;
+}
+
+ul {
+    text-align:center;
+    list-style: inside;
+}
+
+footer {
+    margin: -10px;
+    padding: none;
 }
 
 a:link    {color: blue}
