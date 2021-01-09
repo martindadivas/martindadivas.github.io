@@ -1,3 +1,7 @@
+.picture {
+    justify-content: center;
+}
+
 .dark-background {
     text-align: center;
     justify-content: space-around;
@@ -12,6 +16,7 @@
 }
 
 h1 {
+    font-size: 38px;
     font-family: 'Big Shoulders Stencil Text', cursive;
     justify-content: center;
     width: 100%;
