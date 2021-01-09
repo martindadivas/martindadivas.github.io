@@ -1,8 +1,11 @@
 .dark-background {
-    justify-content: center;
-    height: 100px;
+    height: 150px;
     background-color: #11122b;
     color: #cbcbcb;
+}
+
+header {
+    justify-content: center;
 }
 
 .light-background {
