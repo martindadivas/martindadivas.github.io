@@ -1,14 +1,29 @@
-header {
-    padding-top: 1px;
-    padding-bottom: 5px;
+/* Get rid of extra white space */
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
+/* background styles */
 .dark-background {
     text-align: center;
     justify-content: space-around;
     height: 150px;
     background-color: #11122b;
     color: #cbcbcb;
+}
+
+.light-background {
+    background-color: #cbcbcb;
+    color: #11122b;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+/* header styles */
+header {
+    padding-top: 1px;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -18,30 +33,40 @@ h1 {
     width: 100%;
 }
 
-.light-background {
-    background-color: #cbcbcb;
-    color: #11122b;
-}
-
+/* main section content */
 .picture {
     text-align: center;
+    padding: 50px;
 }
 
-.intro, .about-me, .contact {
+article {
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     text-align: center;
     justify-content: center;
 }
 
-ul {
-    text-align:center;
-    list-style: inside;
+ol, ul {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* footer styles */
 footer {
-    margin: -10px;
+    margin: -20px;
     padding: none;
 }
 
+footer p {
+    padding-top: 65px;
+}
+
+/* pseudo classes */
 a:link    {color: blue}
 a:visited {color: purple}
 a:hover   {color: lightblue}
